@@ -14,8 +14,8 @@ This repo serves both as:
 ## Live Demo (optional)
 
 Add later:
-Public booking page: https://your-demo.vercel.app/book
-Admin dashboard:  https://your-demo.vercel.app/book
+- Public booking page: https://your-demo.vercel.app/book
+- Admin dashboard:  https://your-demo.vercel.app/book
 ---
 
 ## Features
@@ -66,21 +66,21 @@ Database:
 
 ## Architecture Overview
 
-app/
-book/ → booking UI
-admin/ → admin dashboard
-api/
-services/ → fetch services
-availability/ → compute availability
-bookings/ → create booking
+- app/
+- book/ → booking UI
+- admin/ → admin dashboard
+- api/
+- services/ → fetch services
+- availability/ → compute availability
+- bookings/ → create booking
 
-lib/
-db.ts → Prisma client
-booking/
-availability.ts → slot engine
+- lib/
+- db.ts → Prisma client
+- booking/
+- availability.ts → slot engine
 
-prisma/
-schema.prisma → data models
+- prisma/
+- schema.prisma → data models
 
 
 ---
