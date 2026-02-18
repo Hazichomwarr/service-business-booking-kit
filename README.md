@@ -102,30 +102,6 @@ Designed to scale later with:
 
 ---
 
-## Installation
-
-Clone repo:
-
-```bash
-git clone https://github.com/Hazichomwarr/service-business-booking-kit
-cd booking-os```
-
-Install dependencies:
-```npm install```
-
-Setup database:
-```npx prisma migrate dev --name init
-node prisma/seed.ts```
-
-Run dev server:
-```npm run dev```
-
-Open:
-```http://localhost:3000/book
-http://localhost:3000/admin```
-
----
-
 ## Why This Project Exists
 
 This project was built as a reusable booking system for service businesses.
@@ -169,6 +145,30 @@ Full-stack developer focused on building systems that automate business operatio
 MIT License
 
 You are free to use and modify this project.
+
+---
+
+## Installation
+
+Clone repo:
+
+```bash
+git clone https://github.com/Hazichomwarr/service-business-booking-kit
+cd booking-os```
+
+Install dependencies:
+```npm install```
+
+Setup database:
+```npx prisma migrate dev --name init
+node prisma/seed.ts```
+
+Run dev server:
+```npm run dev```
+
+Open:
+```http://localhost:3000/book
+http://localhost:3000/admin```
 
 ---
 
