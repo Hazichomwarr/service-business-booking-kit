@@ -14,8 +14,10 @@ This repo serves both as:
 ## Live Demo (optional)
 
 Add later:
+
 - Public booking page: https://your-demo.vercel.app/book
-- Admin dashboard:  https://your-demo.vercel.app/book
+- Admin dashboard: https://your-demo.vercel.app/book
+
 ---
 
 ## Features
@@ -82,7 +84,6 @@ Database:
 - prisma/
 - schema.prisma → data models
 
-
 ---
 
 ## Database Models
@@ -115,6 +116,7 @@ Many small businesses still rely on manual scheduling, leading to:
 ## Future Extensions
 
 Planned upgrades:
+
 - SMS reminders (Twilio)
 - Stripe payments
 - Staff management
@@ -135,6 +137,31 @@ Planned upgrades:
 
 ---
 
+## Installation
+
+Clone repo:
+
+```bash
+# git clone https://github.com/Hazichomwarr/service-business-booking-kit
+cd service-business-booking-kit
+
+# Install dependencies:
+npm install
+
+# Setup database:
+npx prisma migrate dev --name init
+node prisma/seed.ts
+
+# Run dev server:
+npm run dev
+
+# Open:
+http://localhost:3000/book
+http://localhost:3000/admin
+```
+
+---
+
 ## Author
 
 Built by Hamza Mare.
@@ -147,30 +174,3 @@ MIT License
 You are free to use and modify this project.
 
 ---
-
-## Installation
-
-Clone repo:
-
-```bash
-git clone https://github.com/Hazichomwarr/service-business-booking-kit
-cd booking-os```
-
-Install dependencies:
-```npm install```
-
-Setup database:
-```npx prisma migrate dev --name init
-node prisma/seed.ts```
-
-Run dev server:
-```npm run dev```
-
-Open:
-```http://localhost:3000/book
-http://localhost:3000/admin```
-
----
-
-
-
